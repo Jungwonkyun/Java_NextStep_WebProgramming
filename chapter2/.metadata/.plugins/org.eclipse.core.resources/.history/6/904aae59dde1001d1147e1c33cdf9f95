@@ -1,0 +1,11 @@
+package calcualtor;
+
+import org.junit.jupiter.api.Test;
+
+public class CarculatorTest {
+	@Test
+	public void add() {
+		Calculator cal = new Calculator();
+		System.out.println(cal.add(6,3));
+	}
+}

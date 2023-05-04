@@ -1,0 +1,23 @@
+package stringcalculator;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Before;
+import org.junit.jupiter.api.Test;
+
+class StringCalculatorTest {
+
+	private StringCalculator cal;
+	
+	@Before
+	public void setup() {
+		cal = new StringCalculator();
+	}
+	
+	public void add_null() {
+		//null값 또는 빈 문자열을 넣었을 때 
+		assertEquals(0, cal.add(null));
+		assertEquals(0, cal.add(""));
+	}
+
+}

@@ -1,0 +1,25 @@
+package calcualtor;
+
+public class Calculator {
+	
+	int add(int i, int j ) {
+		return i+j;
+	}
+	
+	int subtract(int i, int j ) {
+		return i-j;
+	}
+	
+	int multiply(int i, int j ) {
+		return i*j;
+	}
+	
+	int divide(int i, int j ) {
+		return i/j;
+	}
+	
+	public static void main() {
+		Calculator cal = new Calculator();
+		System.out.println(add(3,4));
+	}
+}

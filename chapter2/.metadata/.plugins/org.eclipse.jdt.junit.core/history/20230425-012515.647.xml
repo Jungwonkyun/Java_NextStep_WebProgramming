@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StringCalculatorTest" project="calcualtor" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="stringcalculator.StringCalculatorTest" time="0.002" displayname="StringCalculatorTest" uniqueid="[engine:junit-vintage]/[runner:stringcalculator.StringCalculatorTest]">
+    <testcase name="add_null" classname="stringcalculator.StringCalculatorTest" time="0.002" displayname="add_null" uniqueid="[engine:junit-vintage]/[runner:stringcalculator.StringCalculatorTest]/[test:add_null(stringcalculator.StringCalculatorTest)]"/>
+    <testcase name="add_shimpyo" classname="stringcalculator.StringCalculatorTest" time="0.0" displayname="add_shimpyo" uniqueid="[engine:junit-vintage]/[runner:stringcalculator.StringCalculatorTest]/[test:add_shimpyo(stringcalculator.StringCalculatorTest)]"/>
+    <testcase name="add_oneNum" classname="stringcalculator.StringCalculatorTest" time="0.0" displayname="add_oneNum" uniqueid="[engine:junit-vintage]/[runner:stringcalculator.StringCalculatorTest]/[test:add_oneNum(stringcalculator.StringCalculatorTest)]"/>
+  </testsuite>
+</testrun>

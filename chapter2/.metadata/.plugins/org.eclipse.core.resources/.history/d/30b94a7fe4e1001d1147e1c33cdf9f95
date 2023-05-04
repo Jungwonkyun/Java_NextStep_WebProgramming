@@ -1,0 +1,20 @@
+package calcualtor;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
+
+class CalculatorTest {
+	
+	private Calculator cal = new Calculator();
+	
+	@Test
+	public void add() {
+		assertEquals(9, cal.add(6, 3));
+	}
+	
+	@Test
+	public void subtract() {
+		assertEquals(3, cal.subtract(6, 3));
+	}
+	
+}

@@ -1,0 +1,19 @@
+package calcualtor;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class CalculatorTest {
+
+	@Test
+	public void add() {
+		Calculator cal = new Calculator();
+		System.out.println(cal.add(6,3));
+	}
+	
+	public void subtract() {
+		Calculator cal = new Calculator();
+		System.out.println(cal.subtract(6, 3));
+	}
+}

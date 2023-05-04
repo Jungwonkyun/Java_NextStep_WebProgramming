@@ -1,0 +1,21 @@
+package stringcalculator;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Before;
+import org.junit.jupiter.api.Test;
+
+class StringCalculatorTest {
+
+	private StringCalculator cal;
+	
+	@Before
+	public void setup() {
+		cal = new StringCalculator();
+	}
+	
+	public void add_null() {
+		assertEquals(0, cal.add(null));
+	}
+
+}

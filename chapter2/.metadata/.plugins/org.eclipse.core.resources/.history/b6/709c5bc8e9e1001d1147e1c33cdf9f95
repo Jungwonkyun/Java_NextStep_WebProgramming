@@ -1,0 +1,18 @@
+package stringcalculator;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Before;
+import org.junit.jupiter.api.Test;
+
+class StringCalculatorTest {
+
+	private StringCalculator cal;
+	
+	@Before
+	public void setup() {
+		cal = new StringCalculator();
+	}
+	
+
+}
